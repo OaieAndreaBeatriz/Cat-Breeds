@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
 .breed {
   width: 100%;
   height: auto;
@@ -5,9 +7,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
 }
 .breed .breedTitle {
-  font-family: cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 60px;
 }
 
@@ -20,8 +23,8 @@
 }
 
 .breedInfo {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 /* breed ITEM STYLING */
